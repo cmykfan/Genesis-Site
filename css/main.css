@@ -1,0 +1,217 @@
+/**********************************
+GENERAL   max-width: 940px; margin: 0 auto; padding: 0 5%;
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+  margin: auto;
+  padding: 0;
+  float: center;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: center;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1.00em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-right: 10px;
+  margin: auto;
+  color: #23254a;
+}
+
+
+/**********************************
+COLORS    background-color: #fff;
+  color: #999;
+***********************************/
+
+/* site body */
+body {
+  background-color: #6ab47b;
+  color: #23254a;
+}
+
+/* green header #6ab47b */
+header {
+  background: #6ab47b;
+  border-color: #6ab47b;
+}
+
+/* nav background on mobile */
+nav {
+  background: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+  color: #ffffcc;
+}
+
+/* links  were  #6ab47b;    */
+a {
+  color: #23254a;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link  #32673f */
+nav a.selected, nav a:hover {
+  color: #23254a;
+}
+
+/****  Style for js button  *****/
+
+button.style{
+    background-color:#6ab47b;
+    color:#ffffcc;
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+    text-align: auto;
+    height: auto;
+}
+
+/****  Make sure media queries are in the right order.  The ones for larger devices need to be below the ones for smaller devices.   ****/
+
+
+/****** Breakpoint   Smartphones (portrait) ******/
+@media only screen and (max-width : 639px) {
+/* Styles */
+    button.style{
+        background-color: #599a68;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 400px;
+        padding: .5em;
+        line-height: 1em;
+        border: 2px solid black;
+    }
+
+}
+
+/*smartphone landscape*/
+@media only screen and (min-width : 640px){
+/* Styles */
+   button.style{
+        background-color: #599a68;
+        margin-left: 25%;
+        margin-right: 25%;
+        max-width: 300px;
+        padding: .5em;
+        line-height: 1em;
+        border: 2px solid black;
+    }
+}
+
+/*ipad and desktop*/
+@media only screen and (min-width : 768px){
+    button.style{
+        margin-left: 35%;
+        margin-right: 40%;
+        background-color: #599a68;
+        width: 100%;
+        border: 2px solid black;
+    }
+}
+
+
+
+
+
+
+
+
+
