@@ -1,3 +1,3 @@
 # Genesis-Site
-Genesis Website project
+Genesis Website project.
 This is an ongoing project I originally started when I was in Code Louisville.  It is a basic website in which I go through a bit of the history of one of my favorite music groups, Genesis. There is JavaScript functionality if you are on the Peter Gabriel Era page and click on the text “Peter Gabriel Era: 1967-1975” it will bring up a popup window box to give you more detail about this era. There are dead links at this point since the site is still under construction, but they point you to the working links. There is also an external link on the index page footer that goes to the Genesis Wiki page. Thanks for taking a look. I look forward to building on my knowledge and adding more to this site, along with loading other projects to GitHub in the future.
